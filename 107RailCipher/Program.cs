@@ -1,12 +1,54 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace _107RailCipher
+namespace Rail_Cipher
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            while (true)
+            {
+                Console.WriteLine(" ----------------------------------------");
+                Console.WriteLine(" W E L C O M E  T O  R A I L  C I P H E R");
+                Console.WriteLine(" ----------------------------------------");
+
+                Console.WriteLine("Select one of the following options:");
+                Console.WriteLine("1.Rail Cipher");
+                Console.WriteLine("2.Exit Program");
+
+                string option = Console.ReadLine();
+
+                if(option == "1")
+                {
+                    Rail();
+                }
+                else if(option == "2")
+                {
+                    Console.WriteLine("Thank you for your Time");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid option Try again");
+                }
+            }
+        }
+        static void Rail()
+        {
+            Console.WriteLine(" ------------------------");
+            Console.WriteLine(" E N C R Y P T   M O D E ");
+            Console.WriteLine(" ------------------------");
+
+            Console.WriteLine("How Many Rails would you like");
+            int r = int.Parse(Console.ReadLine());
+            Console.WriteLine("This is number fo Rails we are using :" + r );
+            Console.WriteLine("Enter Your De-Crypted message");
+            string mess = Console.ReadLine();
+
         }
     }
 }
