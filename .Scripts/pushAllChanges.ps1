@@ -16,6 +16,8 @@
 # Stop on any error
 $ErrorActionPreference = "Stop"
 
+git status
+
 git pull
 
 # Create ISO date-time (safe for git messages)
