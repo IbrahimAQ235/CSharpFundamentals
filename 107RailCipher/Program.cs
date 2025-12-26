@@ -39,16 +39,27 @@ namespace Rail_Cipher
         }
         static void Rail()
         {
+            Console.Clear();
             Console.WriteLine(" ------------------------");
             Console.WriteLine(" E N C R Y P T   M O D E ");
             Console.WriteLine(" ------------------------");
 
             Console.WriteLine("How Many Rails would you like");
             int r = int.Parse(Console.ReadLine());
-            Console.WriteLine("This is number fo Rails we are using :" + r );
+            Console.WriteLine("This is number of Rails we are using :" + r );
             Console.WriteLine("Enter Your De-Crypted message");
             string mess = Console.ReadLine();
+            Console.WriteLine("Your De-Crypted message is :" + mess);
 
+            for (int i = 0; i < r; i++)
+            {
+                Console.WriteLine("Rail " + (i + 1));
+                for (int j = i; j < mess.Length; j += r)
+                {
+                    Console.Write(mess[j]);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }

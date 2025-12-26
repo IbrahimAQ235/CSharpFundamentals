@@ -1,0 +1,11 @@
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\bin\Debug\netcoreapp2.1\107RailCipher.deps.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\bin\Debug\netcoreapp2.1\107RailCipher.runtimeconfig.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\bin\Debug\netcoreapp2.1\107RailCipher.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\bin\Debug\netcoreapp2.1\107RailCipher.dll
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\bin\Debug\netcoreapp2.1\107RailCipher.pdb
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\obj\Debug\netcoreapp2.1\107RailCipher.csprojAssemblyReference.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\obj\Debug\netcoreapp2.1\107RailCipher.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\obj\Debug\netcoreapp2.1\107RailCipher.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\obj\Debug\netcoreapp2.1\107RailCipher.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\obj\Debug\netcoreapp2.1\107RailCipher.dll
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\107RailCipher\obj\Debug\netcoreapp2.1\107RailCipher.pdb
