@@ -75,8 +75,9 @@ namespace Hypothesis
         static void rank()
         {
             Console.Clear();
-            Console.WriteLine("---- SPEARMAN'S RANK CALCULATOR ----");
-
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("==== SPEARMAN'S RANK CALCULATOR ====");
+            Console.WriteLine("------------------------------------");
             Console.WriteLine("Please enter the sum of D^2 value");
             double D = double.Parse(Console.ReadLine());
 
@@ -126,10 +127,40 @@ namespace Hypothesis
         static void hyp()
         {
             Console.Clear();
-            Console.WriteLine("Hypothesis testing not implemented yet.");
-            Console.WriteLine();
-            Console.WriteLine("Press ENTER to return to menu...");
-            Console.ReadLine();
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("==== SPEARMAN'S HYP CALCULATOR ====");
+            Console.WriteLine("-----------------------------------");
+
+
+            Console.WriteLine("What Your First Variable name:");
+            string var1 = Console.ReadLine();
+            Console.WriteLine("What Your Second Variable name:");
+            string var2 = Console.ReadLine();
+            Console.WriteLine("H0: There is no correlation between " + var1 + " and " + var2);
+            Console.WriteLine("Is there a positive or negative correlation or Any correlation?");
+            string corr = Console.ReadLine().ToLower();
+            if (corr == "positive")
+            {
+                Console.WriteLine("H1: There is a positive correlation between " + var1 + " and " + var2);  
+                Console.WriteLine("One tailed test");          
+            }
+            else if (corr == "negative")
+            {
+                Console.WriteLine("H1: There is a negative correlation between " + var1 + " and " + var2);
+                Console.WriteLine("One tailed test");      
+            }
+            else
+            {
+                Console.WriteLine("H1: There is a correlation between " + var1 + " and " + var2);
+                Console.WriteLine("Two tailed test");
+            }
+            Console.WriteLine("What is your rs value:");
+            double ran = double.Parse(Console.ReadLine());
+            Console.WriteLine("What is your n value:");
+            int ns = int.Parse(Console.ReadLine());
+            Console.WriteLine("What is your significance level (Percentage) :");
+            int sig = int.Parse(Console.ReadLine());
+
         }
     }
 }
