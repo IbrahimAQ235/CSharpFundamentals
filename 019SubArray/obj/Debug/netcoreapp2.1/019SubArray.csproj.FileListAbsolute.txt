@@ -1,0 +1,11 @@
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\obj\Debug\netcoreapp2.1\019SubArray.csprojAssemblyReference.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\obj\Debug\netcoreapp2.1\019SubArray.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\obj\Debug\netcoreapp2.1\019SubArray.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\obj\Debug\netcoreapp2.1\019SubArray.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\bin\Debug\netcoreapp2.1\019SubArray.deps.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\bin\Debug\netcoreapp2.1\019SubArray.runtimeconfig.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\bin\Debug\netcoreapp2.1\019SubArray.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\bin\Debug\netcoreapp2.1\019SubArray.dll
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\bin\Debug\netcoreapp2.1\019SubArray.pdb
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\obj\Debug\netcoreapp2.1\019SubArray.dll
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\019SubArray\obj\Debug\netcoreapp2.1\019SubArray.pdb
