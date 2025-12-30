@@ -12,6 +12,7 @@ namespace Rail_Cipher
         {
             while (true)
             {
+                Console.Clear();
                 Console.WriteLine(" ----------------------------------------");
                 Console.WriteLine(" W E L C O M E  T O  R A I L  C I P H E R");
                 Console.WriteLine(" ----------------------------------------");
@@ -56,10 +57,11 @@ namespace Rail_Cipher
                 Console.WriteLine("Rail " + (i + 1));
                 for (int j = i; j < mess.Length; j += r)
                 {
-                    Console.Write(mess[j]);
+                    Console.Write(mess[j] + " ");
                 }
                 Console.WriteLine();
             }
+            Console.ReadLine();
         }
     }
 }
