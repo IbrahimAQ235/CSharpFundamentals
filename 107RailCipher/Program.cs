@@ -60,8 +60,23 @@ namespace Rail_Cipher
                     Console.Write(mess[j] + " ");
                 }
                 Console.WriteLine();
+
             }
+            string result = "";
+
+                for (int i = 0; i < r; i++)
+                {
+                    for (int j = i; j < mess.Length; j += r)
+                    {
+                        result += mess[j];
+                    }
+                }
+
+                Console.WriteLine();
+                Console.WriteLine("Encrypted result: " + result);
+
             Console.ReadLine();
+
         }
     }
 }
