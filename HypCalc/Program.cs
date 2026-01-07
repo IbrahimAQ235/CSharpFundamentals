@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Hypothesis
 {
     class Program
@@ -23,6 +22,7 @@ namespace Hypothesis
                 {
                     Console.Clear();
                     Console.WriteLine("In Progress");
+                    Console.WriteLine("Calculator made by Ibrahim Dar");
                     Console.ReadLine();
                 }
                 else if (option == "2")
@@ -78,6 +78,7 @@ namespace Hypothesis
             Console.WriteLine("------------------------------------");
             Console.WriteLine("==== SPEARMAN'S RANK CALCULATOR ====");
             Console.WriteLine("------------------------------------");
+            Console.WriteLine("Formulas is rs = 1 - (6 * D) / (n * (n * n - 1))");
             Console.WriteLine("Please enter the sum of D^2 value");
             double D = double.Parse(Console.ReadLine());
 
@@ -139,20 +140,29 @@ namespace Hypothesis
             Console.WriteLine("H0: There is no correlation between " + var1 + " and " + var2);
             Console.WriteLine("Is there a positive or negative correlation or Any correlation?");
             string corr = Console.ReadLine().ToLower();
-            if (corr == "positive")
+            while(true)
             {
-                Console.WriteLine("H1: There is a positive correlation between " + var1 + " and " + var2);  
-                Console.WriteLine("One tailed test");          
-            }
-            else if (corr == "negative")
-            {
-                Console.WriteLine("H1: There is a negative correlation between " + var1 + " and " + var2);
-                Console.WriteLine("One tailed test");      
-            }
-            else
-            {
-                Console.WriteLine("H1: There is a correlation between " + var1 + " and " + var2);
-                Console.WriteLine("Two tailed test");
+                if (corr == "positive")
+                {
+                    Console.WriteLine("H1: There is a positive correlation between " + var1 + " and " + var2);  
+                    Console.WriteLine("One tailed test");          
+                }
+                else if (corr == "negative")
+                {
+                    Console.WriteLine("H1: There is a negative correlation between " + var1 + " and " + var2);
+                    Console.WriteLine("One tailed test");      
+                }
+                else if (corr == "any")
+                {
+                    Console.WriteLine("H1: There is a correlation between " + var1 + " and " + var2);
+                    Console.WriteLine("Two tailed test");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid option please try again");
+                    Console.ReadLine();
+                    return;
+                }
             }
             Console.WriteLine("What is your rs value:");
             double ran = double.Parse(Console.ReadLine());
@@ -160,7 +170,36 @@ namespace Hypothesis
             int ns = int.Parse(Console.ReadLine());
             Console.WriteLine("What is your significance level (Percentage) :");
             int sig = int.Parse(Console.ReadLine());
-
+            Console.WriteLine("Is this a One or Two tailed test:");
+            string tailed = Console.ReadLine().ToLower();
+            if (tailed == "one")
+            {
+                Console.WriteLine("One tailed test selected");
+                one();
+            }
+            else if (tailed == "two")
+            {
+                Console.WriteLine("Two tailed test selected");
+                two();
+            }
+            else
+            {
+                Console.WriteLine("Invalid option please try again");
+                Console.ReadLine();
+                return;
+            }
+        }
+        static void one()
+        {
+            Console.WriteLine("In Progress");
+            Console.ReadLine();
+        }
+        static void two()
+        {
+            Console.WriteLine("In Progress");
+            Console.ReadLine();
         }
     }
 }
+
+
