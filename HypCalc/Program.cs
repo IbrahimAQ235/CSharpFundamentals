@@ -140,8 +140,6 @@ namespace Hypothesis
             Console.WriteLine("H0: There is no correlation between " + var1 + " and " + var2);
             Console.WriteLine("Is there a positive or negative correlation or Any correlation?");
             string corr = Console.ReadLine().ToLower();
-            while(true)
-            {
                 if (corr == "positive")
                 {
                     Console.WriteLine("H1: There is a positive correlation between " + var1 + " and " + var2);  
@@ -163,7 +161,6 @@ namespace Hypothesis
                     Console.ReadLine();
                     return;
                 }
-            }
             Console.WriteLine("What is your rs value:");
             double ran = double.Parse(Console.ReadLine());
             Console.WriteLine("What is your n value:");

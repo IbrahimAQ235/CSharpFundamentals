@@ -1,0 +1,5 @@
+This is an example text file.
+Your name is 15
+Your age is 13
+Your Subject is 12
+Your Marks in test is 12
