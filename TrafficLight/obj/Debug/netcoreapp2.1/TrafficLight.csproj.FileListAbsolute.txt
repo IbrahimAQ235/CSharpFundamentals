@@ -1,0 +1,11 @@
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\bin\Debug\netcoreapp2.1\TrafficLight.deps.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\bin\Debug\netcoreapp2.1\TrafficLight.runtimeconfig.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\bin\Debug\netcoreapp2.1\TrafficLight.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\bin\Debug\netcoreapp2.1\TrafficLight.dll
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\bin\Debug\netcoreapp2.1\TrafficLight.pdb
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\obj\Debug\netcoreapp2.1\TrafficLight.csprojAssemblyReference.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\obj\Debug\netcoreapp2.1\TrafficLight.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\obj\Debug\netcoreapp2.1\TrafficLight.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\obj\Debug\netcoreapp2.1\TrafficLight.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\obj\Debug\netcoreapp2.1\TrafficLight.dll
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\TrafficLight\obj\Debug\netcoreapp2.1\TrafficLight.pdb

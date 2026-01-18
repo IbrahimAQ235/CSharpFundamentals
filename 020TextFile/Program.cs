@@ -37,6 +37,17 @@ namespace _020TextFile
             }
 
             Console.WriteLine("File reused and updated successfully.");
+
+            using (StreamReader reader = new StreamReader("example.txt"))
+            {
+                Console.WriteLine("Saved results:");
+
+                while (!reader.EndOfStream)
+                {
+                    Console.WriteLine(reader.ReadLine());
+                }
+            }
+
         }
     }
 }

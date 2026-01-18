@@ -1,0 +1,11 @@
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\bin\Debug\netcoreapp2.1\skelprog.deps.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\bin\Debug\netcoreapp2.1\skelprog.runtimeconfig.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\bin\Debug\netcoreapp2.1\skelprog.runtimeconfig.dev.json
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\bin\Debug\netcoreapp2.1\skelprog.dll
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\bin\Debug\netcoreapp2.1\skelprog.pdb
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\obj\Debug\netcoreapp2.1\skelprog.csprojAssemblyReference.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\obj\Debug\netcoreapp2.1\skelprog.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\obj\Debug\netcoreapp2.1\skelprog.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\obj\Debug\netcoreapp2.1\skelprog.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\obj\Debug\netcoreapp2.1\skelprog.dll
+C:\Users\muham\OneDrive\Documents\MyGitRepos\CSharpFundamentals\skelprog\obj\Debug\netcoreapp2.1\skelprog.pdb
